@@ -54,6 +54,7 @@ form {
 }
 
 .formInput {
+  box-sizing: border-box;
   width: 100%;
   padding: 10px 20px;
   border-radius: 20px;
@@ -64,6 +65,7 @@ form {
 }
 
 .formBtn {
+  box-sizing: border-box;
   cursor: pointer;
   width: 100%;
   padding: 7px 20px;
@@ -75,6 +77,7 @@ form {
 }
 
 .cancelBtn {
+  box-sizing: border-box;
   cursor: pointer;
   background-color: #f29661;
 }
@@ -249,6 +252,7 @@ form {
 /* AuthForm */
 
 .authInput {
+  box-sizing: border-box;
   max-width: 320px;
   width: 100%;
   padding: 10px;
